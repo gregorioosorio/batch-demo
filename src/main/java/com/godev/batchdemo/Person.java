@@ -12,6 +12,7 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 public class Person {
+	private String title;
 	private String firstName;
 	private String lastName;
 }
